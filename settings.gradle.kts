@@ -10,7 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter()
+        maven("https://raw.githubusercontent.com/rovo89/XposedBridge/refs/heads/gh-pages/")
     }
 }
 

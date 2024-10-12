@@ -15,7 +15,8 @@ class Xposed : IXposedHookLoadPackage {
         val clazz: Class<*> =
             XposedHelpers.findClassIfExists("$packageName.MainActivity", lpParam.classLoader)
         val hashMap = hashMapOf<String, Any>("noAd" to true)
-        XposedHelpers.findAndHookMethod(clazz, "J0", XC_MethodReplacement.returnConstant(hashMap))
+        val methodName = "L0"
+        XposedHelpers.findAndHookMethod(clazz, methodName, XC_MethodReplacement.returnConstant(hashMap))
         XposedBridge.log("All hooking completed for the package $packageName")
     }
 
