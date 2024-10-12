@@ -9,10 +9,10 @@ android {
 
     defaultConfig {
         applicationId = "com.gauravssnl.radiobox"
-        minSdk = 30
+        minSdk = 28
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
