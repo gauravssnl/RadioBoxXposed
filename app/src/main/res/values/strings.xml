@@ -1,7 +1,4 @@
 <resources>
     <string name="app_name">RadioBoxPro</string>
-    <string name="xposed_description">Mobile Radio App Ad Away</string>
-    <string-array name="scope">
-        <item>com.finallevel.radiobox</item>
-    </string-array>
+<string name="description">RadioBoxPro Xposed module which has been developed using the `Modern Xposed API` provided by LSPosed. Enjoy Ad free radio experience :)</string>
 </resources>

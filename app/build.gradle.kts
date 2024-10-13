@@ -12,7 +12,7 @@ android {
         minSdk = 28
         targetSdk = 34
         versionCode = 1
-        versionName = "1.1"
+        versionName = "1.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -37,5 +37,6 @@ android {
 }
 
 dependencies {
-    compileOnly ("de.robv.android.xposed:api:82")
+//    compileOnly ("de.robv.android.xposed:api:82")
+    compileOnly(fileTree(mapOf("dir" to "libs", "include" to listOf("*.aar"))))
 }
