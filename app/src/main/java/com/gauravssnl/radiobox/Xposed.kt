@@ -5,9 +5,7 @@ import de.robv.android.xposed.XC_MethodReplacement
 import de.robv.android.xposed.XposedBridge
 import de.robv.android.xposed.XposedHelpers
 import de.robv.android.xposed.callbacks.XC_LoadPackage
-import java.lang.reflect.Method
 import java.lang.reflect.Modifier
-import java.util.Objects
 
 class Xposed : IXposedHookLoadPackage {
 
